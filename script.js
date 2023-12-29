@@ -17,3 +17,9 @@ value = value - 1;
 //set the value into UI
 countValue.innerText = value;
 };
+
+const reset = () => {
+     let value = parseInt(countValue.innerText);
+     value = 0;
+     countValue.innerText =value;
+};
